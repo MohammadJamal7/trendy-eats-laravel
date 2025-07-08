@@ -7,7 +7,7 @@ use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\ImageController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin.auth.login');
 });
 
 // Serve uploaded images
